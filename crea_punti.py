@@ -13,9 +13,9 @@ def crea_excel_punti_random(excel_file: str, num_righe: int, num_colonne: int,
     
     #valori in mm
     y_min, y_max = 0, 100
-    lun_righe_min, lun_righe_max  = 30, 30
+    lun_righe_min, lun_righe_max  = 100, 110
     x_0_min, x_0_max = 0, 0
-    z_min, z_max = 20, 25
+    z_min, z_max = 20, 35
     
     #inizializzo il random
     random.seed(random_seed)

@@ -21,6 +21,7 @@ def main():
     print("Il volume totale è: ", volume)
     input("Premere INVIO per terminare ")
     
+    
 
 # %%
 def ottieni_dati_input() -> str:
